@@ -6,7 +6,6 @@ import VideosPreviewSection from "../../components/sections/VideosPreviewSection
 export default function Home() {
   return (
     <>
-      {/* HERO SECTION */}
       <section className="bg-gradient-to-r from-green-700 to-green-600 text-white py-28">
         <div className="container mx-auto px-6 text-center max-w-4xl">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
@@ -37,7 +36,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* TENTANG SECTION */}
       <section className="py-24 bg-gray-50">
         <div className="container mx-auto px-6 text-center max-w-3xl">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
@@ -53,10 +51,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ARTIKEL PREVIEW */}
       <ArticlesPreviewSection />
       <VideosPreviewSection />
-      {/* CONTACT SECTION */}
       <ContactSection />
     </>
   );
