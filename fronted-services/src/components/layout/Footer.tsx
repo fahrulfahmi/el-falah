@@ -5,7 +5,6 @@ export default function Footer() {
     <footer className="bg-green-900 text-green-100 mt-20">
       <div className="container mx-auto px-6 py-12 grid md:grid-cols-3 gap-8">
 
-        {/* Tentang */}
         <div>
           <h3 className="text-xl font-semibold mb-4 text-white">
             Elfalah
@@ -16,7 +15,6 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Navigasi */}
         <div>
           <h3 className="text-xl font-semibold mb-4 text-white">
             Navigasi
@@ -29,7 +27,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Kontak Info */}
         <div>
           <h3 className="text-xl font-semibold mb-4 text-white">
             Kontak

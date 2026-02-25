@@ -13,12 +13,10 @@ export default function Navbar() {
     <nav className="bg-white/90 backdrop-blur sticky top-0 z-50 border-b">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
 
-        {/* Logo */}
         <Link to="/" className="text-2xl font-bold text-green-700">
           Elfalah
         </Link>
 
-        {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8 font-medium">
 
           <NavLink to="/" className={navLinkClass}>
@@ -33,7 +31,6 @@ export default function Navbar() {
             Video
           </NavLink>
 
-          {/* Scroll link */}
           <a
             href="#contact"
             className="text-gray-700 hover:text-green-600 transition"
@@ -41,7 +38,6 @@ export default function Navbar() {
             Kontak
           </a>
 
-          {/* CTA Button */}
           <a
             href="https://wa.me/6281234567890"
             target="_blank"
@@ -53,7 +49,6 @@ export default function Navbar() {
 
         </div>
 
-        {/* Mobile Button */}
         <button
           className="md:hidden text-gray-700 text-2xl"
           onClick={() => setIsOpen(!isOpen)}
@@ -62,7 +57,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-white border-t px-6 py-4 flex flex-col gap-4 font-medium">
 

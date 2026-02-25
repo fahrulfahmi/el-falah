@@ -29,7 +29,6 @@ export default function ContactSection() {
     <section id="contact" className="py-28 bg-gray-50">
       <div className="container mx-auto px-6">
 
-        {/* HEADER */}
         <div className="text-center mb-20 max-w-2xl mx-auto">
           <h2 className="text-4xl font-bold mb-4 text-gray-800">
             Hubungi Kami
@@ -42,7 +41,6 @@ export default function ContactSection() {
 
         <div className="grid md:grid-cols-2 gap-16 items-start">
 
-          {/* INFO + MAP */}
           <div className="space-y-8">
 
             <div className="space-y-4">
@@ -85,7 +83,6 @@ export default function ContactSection() {
               Chat via WhatsApp
             </a>
 
-            {/* GOOGLE MAP */}
             <div className="rounded-xl overflow-hidden shadow-md mt-6">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7934.050367685785!2d106.90456008985643!3d-6.127313295040648!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1ffb8def5a37%3A0xbd7a9589d8379e56!2sJl.%20Walang%20Bar.%20No.6b%2C%20RT.4%2FRW.12%2C%20Tugu%20Utara%2C%20Kec.%20Koja%2C%20Jkt%20Utara%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2014260!5e0!3m2!1sid!2sid!4v1771993028540!5m2!1sid!2sid"
@@ -100,7 +97,6 @@ export default function ContactSection() {
             </div>
           </div>
 
-          {/* FORM */}
           <form
             onSubmit={handleSubmit}
             className="bg-white p-10 rounded-2xl shadow-lg space-y-6"
